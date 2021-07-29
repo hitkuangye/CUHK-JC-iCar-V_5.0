@@ -1,0 +1,31 @@
+{
+    "name": "Mbit_IR",
+    "version": "1.1.0",
+    "description": "Extension for Mbit_IR V1.1.0",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:lzty634158/pxt-neopixel"
+    },
+    "files": [
+        "BitIR.ts",
+        "enums.d.ts",
+        "Bit_IR.cpp",
+        "ReceiverIR.cpp",
+        "i2c.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "_locales/zh-cn/Bit_IR-strings.json",
+        "_locales/zh-tw/Bit_IR-strings.json",
+        "shims.d.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
